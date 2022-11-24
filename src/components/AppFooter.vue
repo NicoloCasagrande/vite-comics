@@ -21,6 +21,7 @@
     <div id="footer-center">
         <div class="container">
             <AppFooterLink/>
+            <img src="../assets/dc-logo-bg.png" alt="">
         </div>
     </div>
     <div id="footer-bottom">
@@ -43,6 +44,16 @@
     #footer-center{
         background-image: url('../assets/footer-bg.jpg');
         background-size: cover;
+        overflow: hidden;
+        .container{
+            position: relative;
+            
+            img{
+                position: absolute;
+                right: 0;
+                top: -6.25rem;
+            }
+        }
     }
     #footer-bottom{
         background-color: #303030;
