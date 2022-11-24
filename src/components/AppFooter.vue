@@ -1,9 +1,13 @@
 <script>
     import AppCard from './AppCard.vue';
+    import AppFooterLink from './AppFooterLink.vue';
+    import AppSocial from './AppSocial.vue';
     export default {
         name: 'AppFooter', 
         components: {
-            AppCard
+            AppCard, 
+            AppFooterLink, 
+            AppSocial
         }
     }
 </script>
@@ -15,20 +19,46 @@
         </div>
     </div>
     <div id="footer-center">
-        <div class="flex column">
-            
+        <div class="container">
+            <AppFooterLink/>
         </div>
     </div>
-    <div class="footer-bottom flex">
+    <div id="footer-bottom">
+        <div class="container flex space-between">
+            <button>SIGN UP NOW!</button>
+            <div class="flex">
+                <span>FOLLOW US</span>
+                <!-- LINKIMAGE COMPONENT -->
+                <AppSocial/>
+            </div>
+        </div>
         
     </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
     #footer-top{
         background-color: #0282f9;
     }
     #footer-center{
         background-image: url('../assets/footer-bg.jpg');
+        background-size: cover;
+    }
+    #footer-bottom{
+        background-color: #303030;
+        padding: 1.875rem 0;
+
+        button{
+            background-color: #303030;
+            font-weight: bold;
+            border: 2px solid #0282f9;
+            padding: .9375rem 1.25rem;
+            color: white;
+        }
+        span{
+            color: #0282f9;
+            font-weight: bold;
+            font-size: 1.0625rem;
+        }
     }
 </style>

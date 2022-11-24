@@ -21,6 +21,7 @@ import AppFooter from './components/AppFooter.vue';
   body{
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
+    color: white;
   }
   .container{
     max-width: 75rem;
@@ -46,5 +47,8 @@ import AppFooter from './components/AppFooter.vue';
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+  }
+  .flex-wrap{
+    flex-wrap: wrap;
   }
 </style>

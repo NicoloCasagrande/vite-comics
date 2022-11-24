@@ -37,12 +37,9 @@
     </div>
 </template>
 
-<style>
+<style scoped>
     div{
-        padding: 1.25rem 0;
-    }
-    span{
-        color: white;
+        padding: 3.125rem 0;
     }
     img{
         width: 1.875rem;

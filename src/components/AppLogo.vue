@@ -8,7 +8,7 @@
     <img src="../assets/dc-logo.png" alt="Logo">
 </template>
 
-<style>
+<style scoped>
     img{
         width: 4.375rem;
         margin: .9375rem 0;
