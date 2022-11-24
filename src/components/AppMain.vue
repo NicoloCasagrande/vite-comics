@@ -5,13 +5,18 @@
 </script>
 
 <template>
-    <div>
+    <div class="container">
         <span>.. Contents goes Here ..</span>
     </div>
 </template>
 
 <style lang="scss" scoped>
     div{
-        background-color: #1c1c1c;
+        height: 6.25rem;
+    }
+    span{
+        color: white;
+        font-size: 1.875rem;
+        margin: auto;
     }
 </style>

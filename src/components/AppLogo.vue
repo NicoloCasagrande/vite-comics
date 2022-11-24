@@ -11,5 +11,6 @@
 <style>
     img{
         width: 4.375rem;
+        margin: .9375rem 0;
     }
 </style>

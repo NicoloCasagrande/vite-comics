@@ -1,6 +1,7 @@
 <script setup>
-import AppHeader from './components/AppHeader.vue'
-import AppMain from './components/AppMain.vue'
+import AppHeader from './components/AppHeader.vue';
+import AppMain from './components/AppMain.vue';
+import AppFooter from './components/AppFooter.vue';
 </script>
 
 <template>
@@ -11,7 +12,7 @@ import AppMain from './components/AppMain.vue'
       <AppMain/>
   </main>
   <footer>
-    
+      <AppFooter/>
   </footer>
 </template>
 
@@ -34,5 +35,16 @@ import AppMain from './components/AppMain.vue'
   }
   .space-between{
     justify-content: space-between;
+  }
+  .align-items-center{
+    align-items: center;
+  }
+  main{
+    background-color: #1c1c1c;
+  }
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
 </style>
