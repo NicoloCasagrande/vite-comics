@@ -9,5 +9,7 @@
 </template>
 
 <style>
-
+    img{
+        width: 4.375rem;
+    }
 </style>
