@@ -65,6 +65,11 @@
             border: 2px solid #0282f9;
             padding: .9375rem 1.25rem;
             color: white;
+            &:hover{
+                background-color: white;
+                color: black;
+                cursor: pointer;
+            }
         }
         span{
             color: #0282f9;

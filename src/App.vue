@@ -17,7 +17,7 @@ import AppFooter from './components/AppFooter.vue';
 </template>
 
 <style lang="scss">
-  // @import './style/global.scss';
+  @import './style/global.scss';
   body{
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;

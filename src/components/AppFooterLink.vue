@@ -64,7 +64,7 @@
     </div>
 </template>
 
-<style scoped>
+<style lang = "scss" scoped>
     h3{
         display: inline;
         padding: .625rem 0;
@@ -74,6 +74,10 @@
     span{
         padding: 2px 0;
         color: gray;
+        &:hover{
+            cursor: pointer;
+            color: white;
+        }
     }
     .height-c-footer{
         height: 21.875rem;

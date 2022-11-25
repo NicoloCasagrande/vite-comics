@@ -8,7 +8,7 @@
     <nav>
         <ul>
             <li><a href="">CHARACTERS</a></li>
-            <li><a href="">COMICS</a></li>
+            <li><a class = "active" href="">COMICS</a></li>
             <li><a href="">MOVIES</a></li>
             <li><a href="">TV</a></li>
             <li><a href="">GAMES</a></li>
@@ -22,6 +22,9 @@
 </template>
 
 <style lang="scss" scoped>
+    .active{
+        color: #0282f9;
+    }
     nav {
         ul {
             display: flex;
@@ -33,6 +36,11 @@
                 text-decoration: none;
                 margin-left: 1.25rem;
                 font-weight: bold;
+                color: black;
+                &:hover{
+                    color: blue;
+                    cursor: pointer;
+                }
             }
         }
     }
