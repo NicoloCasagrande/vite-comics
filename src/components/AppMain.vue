@@ -15,7 +15,7 @@
         height: 6.25rem;
     }
     span{
-        color: white;
+        color: var(--secondary-color);
         font-size: 1.875rem;
         margin: auto;
     }

@@ -76,7 +76,7 @@
         color: gray;
         &:hover{
             cursor: pointer;
-            color: white;
+            color: var(--secondary-color);
         }
     }
     .height-c-footer{

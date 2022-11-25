@@ -1,3 +1,28 @@
 .container{
-    width: 1200px;
-}
+    max-width: var(--container-size);
+    margin: auto;
+    align-items: center;
+  }
+  .flex{
+    display: flex;
+  }
+  .column{
+    flex-direction: column;
+  }
+  .space-between{
+    justify-content: space-between;
+  }
+  .align-items-center{
+    align-items: center;
+  }
+  body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: white;
+  }
+  main{
+    background-color: #1c1c1c;
+  }
+  .flex-wrap{
+    flex-wrap: wrap;
+  }

@@ -39,7 +39,7 @@
 
 <style lang="scss" scoped>
     #footer-top{
-        background-color: #0282f9;
+        background-color: var(--primary-color);
     }
     #footer-center{
         background-image: url('../assets/footer-bg.jpg');
@@ -56,13 +56,13 @@
         }
     }
     #footer-bottom{
-        background-color: #303030;
+        background-color: var(--terziary-color);
         padding: 1.875rem 0;
 
         button{
-            background-color: #303030;
+            background-color: var(--terziary-color);
             font-weight: bold;
-            border: 2px solid #0282f9;
+            border: 2px solid var(--primary-color);
             padding: .9375rem 1.25rem;
             color: white;
             &:hover{
@@ -72,7 +72,7 @@
             }
         }
         span{
-            color: #0282f9;
+            color: var(--primary-color);
             font-weight: bold;
             font-size: 1.0625rem;
         }
