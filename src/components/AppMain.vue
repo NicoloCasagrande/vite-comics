@@ -134,6 +134,10 @@ export default {
 .hero {
   height: 18.75rem;
   overflow: hidden;
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
 }
 img span {
   color: var(--secondary-color);
