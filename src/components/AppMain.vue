@@ -102,20 +102,34 @@ export default {
   <div class="hero">
     <img src="../assets/jumbotron.jpg" alt="" />
   </div>
-  <div class="container flex flex-wrap">
-    <div
-      class="card flex column align-content-center justify-content-center"
-      v-for="comic in comics"
-    >
-      <AppMainCard :thumb="comic.thumb" :series="comic.series" />
+
+  <div class="container flex flex-wrap margin-2">
+    <div class="series-title"><h3>CURRENT SERIES</h3></div>
+    <div class="card flex column" v-for="comic in comics">
+      <AppMainCard :thumb="comic.thumb" :series="comic.series.toUpperCase()" />
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
+.series-title {
+  padding: 0.625rem;
+  background-color: var(--primary-color);
+  position: absolute;
+  top: -1.25rem;
+  left: 2.1875rem;
+}
+.margin-2 {
+  position: relative;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
 .card {
   width: calc(100% / 6);
   text-align: center;
+  img {
+    margin: 0 auto;
+  }
 }
 .hero {
   height: 18.75rem;
